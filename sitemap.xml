@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rntx.ca/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
+```
+
+---
+
+**File 3: `_redirects`** — replace whatever's there with this:
+```
+# Static files are served directly — don't redirect them
+/robots.txt   /robots.txt   200
+/sitemap.xml  /sitemap.xml  200
+
+# SPA catch-all (must be LAST)
+/*   /index.html   200
